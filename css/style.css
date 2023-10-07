@@ -38,3 +38,10 @@ footer {
     background-color: #58585d;
     padding: 25px;
 }
+
+.flexContainer {
+    display: flex;
+    width: 33%;
+    margin: auto;
+    padding: auto;
+}
