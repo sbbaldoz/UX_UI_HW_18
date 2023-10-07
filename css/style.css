@@ -5,12 +5,12 @@
 }
 
 .logo {
-    width: 23%;
+    width: 20%;
     padding: 1%;
 }
 
 nav {
-    width: 50%;
+    width: 75%;
     padding: 1%
 }
 
@@ -42,6 +42,34 @@ footer {
 .flexContainer {
     display: flex;
     width: 33%;
-    margin: auto;
+    margin: 10px;
     padding: auto;
+    flex-direction: column;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: 'myArea1 myArea2 myArea3';
+}
+
+.project1 {
+    grid-area: myArea1;
+}
+
+.project2 {
+    grid-area: myArea2;
+}
+
+.project3 {
+    grid-area: myArea3;
+}
+
+@media only screen and (max-width: 600) {
+    .flexContainer {
+        display: flex;
+        width: 33%;
+        margin: 10px;
+        padding: auto;
+        flex-direction: column;
+    }
 }
